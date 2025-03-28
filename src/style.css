@@ -81,7 +81,9 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.menu {
+  margin-bottom: 20px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -93,4 +95,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+#container {
+  display: none;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: 300px;
+  margin: 20px auto;
+  color: black;
 }
